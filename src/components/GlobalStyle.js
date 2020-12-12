@@ -7,11 +7,17 @@ const GlobalStyles = createGlobalStyle`
         box-sizing:border-box
     }
     html{
+        scrollbar-width:thin;
+        scrollbar-color: darkgrey white ;
+    
         &::-webkit-scrollar{
             width:0.5rem;
         }
-        &::-webkit-scrollbar{
+        &::-webkit-scrollbar-thumb{
             background-color: darkgrey;
+        }
+        &::-webkit-scrollbar-track{
+            background-color: white;
         }
     }
     body{
