@@ -87,6 +87,12 @@ const Home = () => {
           ))}
         </Games>
       </AnimateSharedLayout>
+      <h6>
+        Data from RAWG -{" "}
+        <a href="https://rawg.io/" target="_blank">
+          https://rawg.io/
+        </a>
+      </h6>
     </GameList>
   );
 };
@@ -95,6 +101,16 @@ const GameList = styled(motion.div)`
   padding: 0rem 5rem;
   h2 {
     padding: 5rem 0rem;
+  }
+  h6 {
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    a {
+      color: #ff7676;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 `;
 
