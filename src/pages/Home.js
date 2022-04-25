@@ -89,7 +89,7 @@ const Home = () => {
       </AnimateSharedLayout>
       <h6>
         Data from RAWG -{" "}
-        <a href="https://rawg.io/" target="_blank">
+        <a href="https://rawg.io/" target="_blank" rel="noreferrer">
           https://rawg.io/
         </a>
       </h6>
